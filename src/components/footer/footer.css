@@ -1,0 +1,93 @@
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    padding:30px 20px;
+    box-sizing: border-box;
+}
+
+.footer-components{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 19px;
+    align-items: center;
+}
+
+
+.wrappers{
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+}
+
+.hotel-details{
+    color:white;
+    list-style-type: none;
+    line-height: 0px;
+    display: flex;
+    flex-direction: column;
+    /* margin-block-end: 30px;
+    margin-inline-start: -33px; */
+    padding-inline-start: 35px;
+    text-align: left;
+}
+
+    
+.about-hotel {
+    color: white;
+    list-style-type: none;
+    display: flex; 
+    flex-direction: column; 
+    margin: 0px;
+    /* line-height: 20px; */
+    padding-inline-start: 0px;
+    /* text-align: left; */
+  }
+
+.hotel{
+    font-size: 24px;
+    font-weight: 40px;
+    line-height: 50px
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    padding-inline-start: 0px;
+    margin-block-start: -17px;
+}
+
+
+.sub{
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.last{
+    width: 100%;
+}
+
+.email-container{
+    width:100%;
+    height: 65px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: medium;
+    text-align: center;
+}
+
+.subscribe-button{
+    width:100%;
+    height: 58px;
+    background-color: #DFAA5B;
+    border-radius: 5px;
+    border: none;
+    font-weight:500;
+    font-size: 24px;
+}

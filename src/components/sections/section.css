@@ -1,0 +1,35 @@
+.section-container{
+    width: 100%;
+    height:277px;
+    /* margin:26px; */
+    background-color: #FFFFFF;
+
+}
+
+.section{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   flex-direction: column;
+}
+
+.section-para{
+    /* font-family: Ubuntu; */
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 51.71px;
+    text-align: left;
+}
+
+.section-button{
+    width: 418px;
+    height: 76px;
+    top: 2701px;
+    left: 512px;
+    gap: 0px;
+    background: #DFAA5B;
+    border: none;
+    border-radius: 5px;
+    opacity: 0px;
+    font-size: 24px;
+}

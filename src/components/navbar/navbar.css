@@ -1,0 +1,147 @@
+
+.Navcomponent {
+    background-color: black; 
+    /* padding: 12px; */
+    width: 100%;
+}
+  
+  /* List Container */
+  .Nav-items {
+    list-style: none; 
+    margin: 0;
+    padding: 20px 7px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    width: 100%;
+  }
+
+  
+.checkin-container{
+  width: 14.2%;
+  padding: 5px 10px;
+  position: relative;
+    /* width: 100%; */
+    background-color: white;
+    /* padding: 5px 10px;  */
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+  
+  /* Links */
+.checkout-container{
+  width:14.2%;
+  padding: 5px 10px;
+  position: relative;
+    /* width: 100%; */
+    background-color: white;
+    /* padding: 5px 10px;  */
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+  /* .nav-check-in{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    padding: 5px 10px; 
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+  } */
+
+
+  .select-container{
+    width: 14.2%;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    padding: 5px 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+  }
+
+  .custom-select{
+    width: 100%px;
+    /* height: 23px; */
+    border: none;
+    font-size: 15px;
+  }
+
+
+  .Navi{
+    background-color: #DFAA5B;
+    width: 14.2%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 17px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+  }
+   /* {
+    text-decoration: none; 
+    color: black; 
+    font-family: Ubuntu, sans-serif; 
+    font-size: 16px; 
+  }
+  
+  /* Rounded Edges */
+  /* {
+    border-radius: 5px; 
+    background-color: white; 
+    padding: 8px; 
+    color: black;
+    border: 1px solid #ccc; 
+  }
+  
+  .Nav-lists select:focus {
+    border-color: #999; 
+  }
+  
+  .Nav-lists a:hover {
+    background-color: #f0f0f0; 
+  } */
+
+
+/* .Nav-lists checkin-container{
+  padding-right: 20px;
+} */
+
+/* .Nav-lists.checkin-container{
+ padding-right: 30px;
+}  */
+
+/* .nav-check-in{
+  padding: 10px 20px;
+} */
+
+
+
+/* .select-container::after {
+  content: '▼';
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(252, 72, 72);
+  font-size: 16px;
+} */
+
+/* .Nav-lists.select-container.selected::after{
+  content: '';
+} */
+
+/* .Nav-lists.checkin-container::after{
+  content:url('../../../public/icons/calendar.svg');
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+} */
+

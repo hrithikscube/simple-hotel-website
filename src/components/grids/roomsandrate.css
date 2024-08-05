@@ -1,0 +1,120 @@
+.rooms-container{
+    margin-top: 145px;
+}
+
+.header{
+font-family: Ubuntu;
+font-size: 35px;
+font-weight: 500;
+/* line-height: 51.71px; */
+text-align: center;
+color:#DFAA5B;
+}
+
+.wrapper{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center; 
+    justify-content: center;
+    /* gap: 55px; */
+}
+
+.wrapper2{
+    margin-top: 60px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center; 
+    justify-content: center;
+}
+.Roomtypes{
+    background-image: url('../../../public/icons/standard.svg');
+    width: 630px;
+    height: 500px;
+    /* margin-top: 12px;
+    margin-left: 60px; */
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding: 30px; */
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+.Roomstandard{
+    background-image: url('../../../public/icons/standardroom.svg');
+    width: 630px;
+    height: 500px;
+    /* margin-top: 12px; */
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+
+.Standard-view{
+    background-image: url('../../../public/icons/standardview.svg');
+    width: 630px;
+    height: 500px;
+    /* margin-top: 12px; */
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 30px;
+
+} 
+
+.Deluxe-Rooms{
+    background-image: url('../../../public/icons/deluxeroom.svg');
+    width: 630px;
+    height: 500px;
+    /* margin-top: 12px; */
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+.para{
+    color: white; /* Adjust color as needed */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    margin-block-start: 12px;
+    margin-block-end: 29px;
+    /* text-align: center; */
+    /* margin-bottom: 10px; */
+}
+
+.check-Rates{
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 500;
+    /* line-height: 27.58px; */
+    /* text-align: center; */
+    color: white;
+    background-color:#DFAA5B;
+    border: none;
+    margin-block-end: 69px;
+    /* bottom: 40px; */
+}

@@ -1,0 +1,51 @@
+.image-container{
+   background-image: url('../../../public/icons/room.svg');
+   background-repeat: no-repeat;
+   height: 500px;
+   background-position: center;
+   /* background-size: cover; */
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.bottom-left,
+.bottom-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+
+.room-text{
+    color: white; /* Adjust color as needed */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+.check-Rates{
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 500;
+    /* line-height: 27.58px; */
+    /* text-align: center; */
+    color: white;
+    background-color:#DFAA5B;
+    border: none;
+}
+
+  

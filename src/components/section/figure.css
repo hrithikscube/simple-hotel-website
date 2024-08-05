@@ -1,0 +1,122 @@
+/* Container to position the image and overlay content */
+.image-container {
+    position: relative;
+    width: 100%; 
+}
+  
+
+.background-image {
+    /* width: 101.6%; */
+    width: 100%;
+    height: 720px; 
+    position: relative;
+}
+  
+ 
+  .overlay-content {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    text-align: center; 
+    color: white; 
+    padding: 20px; 
+    /* background: rgba(0, 0, 0, 0.4);  */
+ 
+  }
+  
+  /* Heading style */
+.heading {
+font-family: 'Segoe UI', sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 1.2;
+/* text-align: left; */
+text-align: center;
+margin-top: 0px;
+margin-bottom: 5px; 
+}
+  
+  
+.subtitle {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px; /* Space between subtitle and button */
+}
+  
+  /* Explore button style */
+.explore-button {
+    background-color:#DFAA5B; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    width: 371px;
+    height: 76px;
+    /* top : 519px;  */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 60px;
+  }
+  
+.explore-button:hover {
+    background-color: #e0e6db;
+    text-decoration: underline;
+}
+
+.facilities-container{
+  position: absolute;
+  bottom: -40%;
+  background-color: #FFFFFF;
+  /* top: calc(100%-50px); */
+  left: 50%;
+  
+  /* max-width: 1100px; */
+  transform: translateX(-50%) translateY(-50%);
+  width: 80%;
+  height: 250px;
+  padding: 20px;
+  text-align: center;
+  /* z-index: 1; */
+  /* top: 250px;
+  margin-top: 250px; */
+  /* margin-bottom: 200px; */
+
+}
+.facilities-heading{
+  color: #957554;
+  font-weight:500;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:35px;
+  line-height: 51.71px;
+  margin-bottom: 20px;
+}
+
+.facilities-icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.facilities{
+  text-align: center;
+}
+
+.facilities img{
+  width: 25px;
+  height: 25px;
+}
+
+.facilities p{
+color: #957554;
+font-family: Ubuntu, sans-serif;
+font-weight: 400;
+font-size: 24px;
+}
+
+
+  
